@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19532" started-at="2020-04-08T05:31:16Z" finished-at="2020-04-08T05:31:35Z">
+    <groups>
+    </groups>
+    <test name="HomePageTest" duration-ms="19532" started-at="2020-04-08T05:31:16Z" finished-at="2020-04-08T05:31:35Z">
+      <class name="Academy.HomePage">
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@3d3fcdb0]" name="basePageNavigation" duration-ms="8090" started-at="2020-04-08T11:01:16Z" data-provider="getData" finished-at="2020-04-08T11:01:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.HomePage@3d3fcdb0]" name="basePageNavigation" duration-ms="9096" started-at="2020-04-08T11:01:24Z" data-provider="getData" finished-at="2020-04-08T11:01:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[User2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:Academy.HomePage@3d3fcdb0]" name="TearDown" is-config="true" duration-ms="2323" started-at="2020-04-08T11:01:33Z" finished-at="2020-04-08T11:01:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- Academy.HomePage -->
+    </test> <!-- HomePageTest -->
+  </suite> <!-- Suite -->
+</testng-results>
